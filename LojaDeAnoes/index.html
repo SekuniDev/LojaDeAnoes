@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#845bff">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="http://fonts.gstatic.com">
+        <link href="http://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <title> Projeto Programação Orientada a Objetos </title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1> Loja de Anões </h1>
+        </header>
+        <main>
+            <div class="title">
+                <h2> Lista de Anões </h2>
+            </div>
+            <div class="card">
+                <div class="lineInput">
+                    <label>Anão</label>
+                    <input type="text" id="produto" placeholder="Nome do Anão">
+                </div>
+                <div class="lineInput">
+                    <label>Valor</label>
+                    <input type="text" id="valor" placeholder="Valor do Anão">
+                </div>
+                <button onclick="produto.salvar()">Salvar</button>
+                <button onclick="produto.excluir()">Excluir</button>
+            </div>
+            <div class="content">
+                <table border="1">
+                    <thead>
+                        <th>ID</th>
+                        <th>Anão</th>
+                        <th>Valor</th>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </body>
+</html>

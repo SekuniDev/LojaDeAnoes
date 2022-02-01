@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Nunito-Sans', Sans-Serifans;
+}
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f6b54c;
+}
+h2 {
+    color: #845bff;
+}
+header {
+    background-color: #845bff;
+    padding: 10px;
+    color: #ffd500;
+    text-align: center;
+}
+main {
+    padding: 30px 50px;
+}
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #845bff;
+}
+input:hover {
+    padding: 13px;
+    border: solid 3px #ffd500;
+    transition: 0.5s;
+}
+button {
+    background-color: #845bff;
+    border-radius: 5px;
+    border: solid 1px #845bff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffd500;
+}
+button:hover {
+    background-color: #ffd500;
+    border: solid 1px #ffd500;
+    font-size: 18px;
+    color: #845bff;
+    transition: 0.5s;
+}
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    border: solid 1px #845bff;
+    padding: 20px;
+    margin-top: 15px;
+}
+.lineInput {
+    display: grid;
+    margin-bottom: 10px;
+}
+.content {
+    margin-top: 15px;
+    border-radius: 5px;
+}
+table {
+    border-collapse: collapse;
+    border: solid 1px #845bff;
+    width: 100%;
+}
+table th {
+    font-size: 16px;
+    background-color: #ffd500;
+    color: #845bff;
+}
+table td {
+    text-align: center;
+    font-size: 16px;
+    color: #8b8b8b;
+}
+table td p {
+    font-size: 25px;
+    display: inline;
+}
